@@ -14,6 +14,12 @@ private ArrayList<Team> teams= new ArrayList<Team>();
 		addStudent(nathan);
 		
 		//Add yourself below here, Do not delete other Users
+		Student arland = new Student("Arland Torres", "atorresgarcia9407@westfield.ma.edu", "ArlandTorres");
+		arland.canNotMeet(Day.FRIDAY);
+		arland.canNotMeet(Day.SATURDAY);
+		arland.preferTimeToMeet(Time.EITHER); //MWF after 2:30, TR after 11:00. Sunday after 12.
+		addStudent(arland);
+		
 		
 	
 		
